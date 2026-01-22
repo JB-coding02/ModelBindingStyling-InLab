@@ -78,14 +78,14 @@ public class HomeController : Controller
     {
         return new UserProfile()
         {
-            DateOfBirth = new DateOnly(1815, 7, 1),
-            Email = "First.Programmer@gmail.com",
-            FullName = "Ada Lovelace",
-            GitHubUrl = "https://github.com/Octocat",
+            DateOfBirth = new DateOnly(2008, 12, 02),
+            Email = "justinburns2008@gmail.com",
+            FullName = "Justin T. Burns",
+            GitHubUrl = "https://github.com/JB--Coding02",
             ImageUrl = "https://placehold.co/150",
-            PhoneNumber = "(253) 555-1234",
+            PhoneNumber = "(253) 905-1855",
             UserProfileId = 10,
-            SkilledLanguages = ["C#", "Java", "C++"]
+            SkilledLanguages = ["C#", "Java", "Python"]
         };
     }
 
