@@ -1,9 +1,8 @@
-namespace ModelBindingStyling_Lab.Models
-{
-    public class ErrorViewModel
-    {
-        public string? RequestId { get; set; }
+namespace ModelBindingStyling_Lab.Models;
 
-        public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
-    }
+public class ErrorViewModel
+{
+    public string? RequestId { get; set; }
+
+    public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
 }
